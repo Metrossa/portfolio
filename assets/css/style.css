@@ -1880,3 +1880,22 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+.university-seal {
+  margin-top: 20px;  /* Increased top margin for bigger gap */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;  /* Ensures full width for proper centering */
+}
+
+.university-seal img {
+  opacity: 0.8;
+  transition: opacity 0.3s;
+  display: block;  /* Removes any unwanted spacing */
+  margin: 0 auto;  /* Additional centering */
+}
+
+.university-seal img:hover {
+  opacity: 1;
+}
